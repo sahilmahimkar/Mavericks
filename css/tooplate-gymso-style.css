@@ -443,8 +443,8 @@ text-align: center;
 
 .feature img{
   size: relative;
-  width: 350px;
-  height: 550px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 /*---------------------------------------
@@ -569,7 +569,20 @@ display: block;
 .videos {
   background: var(--dark-color);
   }
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
 
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+ }
 
 /*---------------------------------------
  CONTACT              
