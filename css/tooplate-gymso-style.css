@@ -569,6 +569,7 @@ display: block;
 .videos {
   background: var(--dark-color);
   }
+
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
